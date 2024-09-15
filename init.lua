@@ -116,6 +116,9 @@ vim.opt.showmode = false
 --  See `:help 'clipboard'`
 vim.opt.clipboard = 'unnamedplus'
 
+-- No swap file please
+vim.opt.swapfile = false
+
 -- Enable break indent
 vim.opt.breakindent = true
 
